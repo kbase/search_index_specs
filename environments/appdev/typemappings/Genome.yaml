@@ -66,32 +66,4 @@ types:
                 -
                     type: GenomeFeature
                     version: 1
-            9:
-                -
-                    type: Genome
-                    version: 1
-                -
-                    type: GenomeFeature
-                    version: 1
-            10:
-                -
-                    type: Genome
-                    version: 1
-                -
-                    type: GenomeFeature
-                    version: 1
-            11:
-                -
-                    type: Genome
-                    version: 1
-                -
-                    type: GenomeFeature
-                    version: 1
-            12:
-                -
-                    type: Genome
-                    version: 1
-                -
-                    type: GenomeFeature
-                    version: 1
             
