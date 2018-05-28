@@ -1,0 +1,61 @@
+global-object-type:
+  type: string
+  required: True
+ui-type-name:
+  type: string
+storage-type:
+  type: string
+  required: True
+storage-object-type:
+  type: string
+  required: True
+versions:
+  required: True
+  type: list
+  schema:
+    type: dict
+    schema:
+      inner-sub-type:
+        type: string
+      path-to-sub-objects:
+        type: string
+      primary-key-path:
+        type: string
+      indexing-rules:
+        type: list
+        required: True
+        schema:
+          type: dict
+          schema:
+            path:
+              type: string
+            full-text:
+              type: boolean
+            keyword-type:
+              type: string
+            ui-name:
+              type: string
+            key-name:
+              type: string
+            transform:
+              type: string
+            target-object-type:
+              type: string
+            target-object-type-version:
+              type: integer
+            optional-default-value:
+              required: False
+            ui-hidden:
+              type: boolean
+            derived-key:
+              type: boolean
+            ui-link-key:
+              type: string
+            source-key:
+              type: string
+            subobject-id-key:
+              type: string
+            from-parent:
+              type: boolean
+            not-indexed:
+              type: boolean

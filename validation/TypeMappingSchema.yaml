@@ -1,0 +1,41 @@
+storage-type:
+  type: string
+  required: True
+types:
+  type: dict
+  allow_unknown: True
+  required: True
+  valueschema:
+    type: dict
+    schema:
+      types:
+        type: list
+        schema:
+          type: dict
+          schema:
+            type:
+              type: string
+            version:
+              type: integer
+      default:
+        type: list
+        schema:
+          type: dict
+          schema:
+            type:
+              type: string
+            version:
+              type: integer
+      versions:
+        allow_unknown: True
+        keyschema:
+          type: integer
+        valueschema:
+          type: list
+          schema:
+            type: dict
+            schema:
+              type:
+                type: string
+              version:
+                type: integer
