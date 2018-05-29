@@ -12,10 +12,10 @@ env_dir = os.path.join(os.path.dirname(__file__), "..", "environments")
 class ConditionUtilsTest(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        with open('TypeMappingSchema.yaml') as in_file:
+        with open(os.path.dirname(__file__)+'/TypeMappingSchema.yaml') as in_file:
             type_mapping_schema = yaml.load(in_file)
             cls.type_mapping_validatator = Validator(type_mapping_schema)
-        with open('TypeSchema.yaml') as in_file:
+        with open(os.path.dirname(__file__)+'/TypeSchema.yaml') as in_file:
             type_schema = yaml.load(in_file)
             cls.type_validatator = Validator(type_schema)
 
