@@ -1,6 +1,8 @@
 storage-type:
   type: string
   required: True
+  allowed:
+    - WS
 types:
   type: dict
   allow_unknown: True

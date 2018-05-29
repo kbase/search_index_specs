@@ -1,4 +1,5 @@
 # Search Type Specification and Mapping
+[![Build Status](https://travis-ci.org/kbase/search_index_specs.svg?branch=master)](https://travis-ci.org/kbase/search_index_specs)
 
 This repo contains specifications for how Workspace objects will be indexed in various KBase environments. Each environment(prod, next, appdev and ci) has a dedicated subdirectory with a set of type and typemapping yaml files. You can review [documentation on the type descriptors](docs/Type%20descriptors.md) or see annotated examples of a [Type Specification](docs/TypeExample-Genome.yaml) and a [Type Mapping](docs/TypeMappingExample-GenomeAndAssembly.yaml).
 

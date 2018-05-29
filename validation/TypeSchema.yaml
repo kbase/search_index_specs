@@ -6,6 +6,9 @@ ui-type-name:
 storage-type:
   type: string
   required: True
+  allowed:
+    - WS
+    - SeedOntologyDataSource
 storage-object-type:
   type: string
   required: True
@@ -17,8 +20,10 @@ versions:
     schema:
       inner-sub-type:
         type: string
+        dependencies: path-to-sub-objects
       path-to-sub-objects:
         type: string
+        dependencies: inner-sub-type
       primary-key-path:
         type: string
       indexing-rules:
@@ -29,20 +34,26 @@ versions:
           schema:
             path:
               type: string
+              excludes: source-key
             full-text:
               type: boolean
+              excludes: keyword-type
             keyword-type:
               type: string
+              excludes: full-text
             ui-name:
               type: string
             key-name:
               type: string
             transform:
               type: string
+              regex: ^(values|string|integer|guid|lookup\.key\..+|location\.(contig_id|start|strand|length|stop))$
             target-object-type:
               type: string
+              dependencies: transform
             target-object-type-version:
               type: integer
+              dependencies: transform
             optional-default-value:
               required: False
             ui-hidden:
@@ -53,6 +64,7 @@ versions:
               type: string
             source-key:
               type: string
+              excludes: path
             subobject-id-key:
               type: string
             from-parent:
