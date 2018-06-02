@@ -1,0 +1,5 @@
+global-object-type: KBaseRNASeq.RNASeqAnalysis
+storage-type: WS
+storage-object-type: RNASeqAnalysis
+versions:
+  - indexing-rules: []

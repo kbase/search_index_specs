@@ -1,0 +1,5 @@
+global-object-type: KBaseFBA.ModelComparison
+storage-type: WS
+storage-object-type: ModelComparison
+versions:
+  - indexing-rules: []

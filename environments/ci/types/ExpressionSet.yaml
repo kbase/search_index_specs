@@ -1,0 +1,5 @@
+global-object-type: KBaseSets.ExpressionSet
+storage-type: WS
+storage-object-type: ExpressionSet
+versions:
+  - indexing-rules: []

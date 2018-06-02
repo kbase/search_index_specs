@@ -1,0 +1,5 @@
+global-object-type: KBaseFeatureValues.DifferentialExpressionMatrix
+storage-type: WS
+storage-object-type: DifferentialExpressionMatrix
+versions:
+  - indexing-rules: []

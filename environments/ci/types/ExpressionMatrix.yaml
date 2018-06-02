@@ -1,0 +1,5 @@
+global-object-type: KBaseFeatureValues.ExpressionMatrix
+storage-type: WS
+storage-object-type: ExpressionMatrix
+versions:
+  - indexing-rules: []

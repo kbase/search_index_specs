@@ -1,0 +1,5 @@
+global-object-type: MAK.FloatDataTable
+storage-type: WS
+storage-object-type: FloatDataTable
+versions:
+  - indexing-rules: []

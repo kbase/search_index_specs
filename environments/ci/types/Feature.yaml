@@ -1,0 +1,5 @@
+global-object-type: KBaseGenomes.Feature
+storage-type: WS
+storage-object-type: Feature
+versions:
+  - indexing-rules: []

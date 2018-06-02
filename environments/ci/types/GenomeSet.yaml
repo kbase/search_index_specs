@@ -1,0 +1,5 @@
+global-object-type: KBaseSearch.GenomeSet
+storage-type: WS
+storage-object-type: GenomeSet
+versions:
+  - indexing-rules: []

@@ -1,0 +1,5 @@
+global-object-type: KBaseReport.Report
+storage-type: WS
+storage-object-type: Report
+versions:
+  - indexing-rules: []

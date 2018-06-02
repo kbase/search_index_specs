@@ -1,0 +1,5 @@
+global-object-type: KBaseGenomes.GenomeComparison
+storage-type: WS
+storage-object-type: GenomeComparison
+versions:
+  - indexing-rules: []

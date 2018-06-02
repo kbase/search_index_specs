@@ -1,0 +1,5 @@
+global-object-type: KBaseRNASeq.DifferentialExpressionStat
+storage-type: WS
+storage-object-type: DifferentialExpressionStat
+versions:
+  - indexing-rules: []

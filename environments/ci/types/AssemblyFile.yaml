@@ -1,0 +1,5 @@
+global-object-type: KBaseFile.AssemblyFile
+storage-type: WS
+storage-object-type: AssemblyFile
+versions:
+  - indexing-rules: []

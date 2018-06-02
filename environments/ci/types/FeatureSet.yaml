@@ -1,0 +1,5 @@
+global-object-type: KBaseCollections.FeatureSet
+storage-type: WS
+storage-object-type: FeatureSet
+versions:
+  - indexing-rules: []

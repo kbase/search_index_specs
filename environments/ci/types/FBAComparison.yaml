@@ -1,0 +1,5 @@
+global-object-type: KBaseFBA.FBAComparison
+storage-type: WS
+storage-object-type: FBAComparison
+versions:
+  - indexing-rules: []

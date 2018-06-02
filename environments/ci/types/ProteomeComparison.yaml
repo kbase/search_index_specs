@@ -1,0 +1,5 @@
+global-object-type: GenomeComparison.ProteomeComparison
+storage-type: WS
+storage-object-type: ProteomeComparison
+versions:
+  - indexing-rules: []

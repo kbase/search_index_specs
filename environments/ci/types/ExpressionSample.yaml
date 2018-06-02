@@ -1,0 +1,5 @@
+global-object-type: KBaseExpression.ExpressionSample
+storage-type: WS
+storage-object-type: ExpressionSample
+versions:
+  - indexing-rules: []

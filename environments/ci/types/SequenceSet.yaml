@@ -1,0 +1,5 @@
+global-object-type: KBaseSequences.SequenceSet
+storage-type: WS
+storage-object-type: SequenceSet
+versions:
+  - indexing-rules: []

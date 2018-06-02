@@ -1,0 +1,5 @@
+global-object-type: KBasePhenotypes.PhenotypeSimulationSet
+storage-type: WS
+storage-object-type: PhenotypeSimulationSet
+versions:
+  - indexing-rules: []

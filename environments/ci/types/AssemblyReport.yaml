@@ -1,0 +1,5 @@
+global-object-type: KBaseAssembly.AssemblyReport
+storage-type: WS
+storage-object-type: AssemblyReport
+versions:
+  - indexing-rules: []
