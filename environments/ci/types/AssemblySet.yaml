@@ -1,5 +1,5 @@
-global-object-type: KBaseSets.AssemblySet
+global-object-type: AssemblySet
 storage-type: WS
-storage-object-type: AssemblySet
+storage-object-type: KBaseSets.AssemblySet
 versions:
   - indexing-rules: []

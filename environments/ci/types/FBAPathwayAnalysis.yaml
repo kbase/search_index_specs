@@ -1,5 +1,5 @@
-global-object-type: KBaseFBA.FBAPathwayAnalysis
+global-object-type: FBAPathwayAnalysis
 storage-type: WS
-storage-object-type: FBAPathwayAnalysis
+storage-object-type: KBaseFBA.FBAPathwayAnalysis
 versions:
   - indexing-rules: []

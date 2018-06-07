@@ -1,5 +1,5 @@
-global-object-type: KBaseRNASeq.cummerbund_output
+global-object-type: cummerbund_output
 storage-type: WS
-storage-object-type: cummerbund_output
+storage-object-type: KBaseRNASeq.cummerbund_output
 versions:
   - indexing-rules: []

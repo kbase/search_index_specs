@@ -1,5 +1,5 @@
-global-object-type: KBaseSets.DifferentialExpressionMatrixSet
+global-object-type: DifferentialExpressionMatrixSet
 storage-type: WS
-storage-object-type: DifferentialExpressionMatrixSet
+storage-object-type: KBaseSets.DifferentialExpressionMatrixSet
 versions:
   - indexing-rules: []

@@ -1,5 +1,5 @@
-global-object-type: KBaseSets.ReadsAlignmentSet
+global-object-type: ReadsAlignmentSet
 storage-type: WS
-storage-object-type: ReadsAlignmentSet
+storage-object-type: KBaseSets.ReadsAlignmentSet
 versions:
   - indexing-rules: []

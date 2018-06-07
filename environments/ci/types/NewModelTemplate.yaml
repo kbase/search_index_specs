@@ -1,5 +1,5 @@
-global-object-type: KBaseFBA.NewModelTemplate
+global-object-type: NewModelTemplate
 storage-type: WS
-storage-object-type: NewModelTemplate
+storage-object-type: KBaseFBA.NewModelTemplate
 versions:
   - indexing-rules: []

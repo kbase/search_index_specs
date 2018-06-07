@@ -1,5 +1,5 @@
-global-object-type: KBaseRNASeq.RNASeqDifferentialExpression
+global-object-type: RNASeqDifferentialExpression
 storage-type: WS
-storage-object-type: RNASeqDifferentialExpression
+storage-object-type: KBaseRNASeq.RNASeqDifferentialExpression
 versions:
   - indexing-rules: []

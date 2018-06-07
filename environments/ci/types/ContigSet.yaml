@@ -1,5 +1,5 @@
-global-object-type: KBaseGenomes.ContigSet
+global-object-type: ContigSet
 storage-type: WS
-storage-object-type: ContigSet
+storage-object-type: KBaseGenomes.ContigSet
 versions:
   - indexing-rules: []

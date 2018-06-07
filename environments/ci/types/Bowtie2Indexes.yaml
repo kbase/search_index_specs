@@ -1,5 +1,5 @@
-global-object-type: KBaseRNASeq.Bowtie2Indexes
+global-object-type: Bowtie2Indexes
 storage-type: WS
-storage-object-type: Bowtie2Indexes
+storage-object-type: KBaseRNASeq.Bowtie2Indexes
 versions:
   - indexing-rules: []

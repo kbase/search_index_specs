@@ -1,5 +1,5 @@
-global-object-type: KBaseMetagenomes.BinnedContigs
+global-object-type: BinnedContigs
 storage-type: WS
-storage-object-type: BinnedContigs
+storage-object-type: KBaseMetagenomes.BinnedContigs
 versions:
   - indexing-rules: []

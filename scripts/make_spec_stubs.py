@@ -9,7 +9,7 @@ def stub_txt(ws_type):
 storage-type: WS
 storage-object-type: {}
 versions:
-  - indexing-rules: []""".format(ws_type, ws_type.split('.')[-1])
+  - indexing-rules: []""".format(ws_type.split('.')[-1], ws_type)
 
 
 def make_stubs(types, env='ci'):

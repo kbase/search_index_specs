@@ -1,5 +1,5 @@
-global-object-type: KBaseRNASeq.ReferenceAnnotation
+global-object-type: ReferenceAnnotation
 storage-type: WS
-storage-object-type: ReferenceAnnotation
+storage-object-type: KBaseRNASeq.ReferenceAnnotation
 versions:
   - indexing-rules: []

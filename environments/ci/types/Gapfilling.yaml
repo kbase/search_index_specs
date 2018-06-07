@@ -1,5 +1,5 @@
-global-object-type: KBaseFBA.Gapfilling
+global-object-type: Gapfilling
 storage-type: WS
-storage-object-type: Gapfilling
+storage-object-type: KBaseFBA.Gapfilling
 versions:
   - indexing-rules: []

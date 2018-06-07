@@ -1,5 +1,5 @@
-global-object-type: KBaseRNASeq.GFFAnnotation
+global-object-type: GFFAnnotation
 storage-type: WS
-storage-object-type: GFFAnnotation
+storage-object-type: KBaseRNASeq.GFFAnnotation
 versions:
   - indexing-rules: []

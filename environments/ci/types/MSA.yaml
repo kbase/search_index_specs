@@ -1,5 +1,5 @@
-global-object-type: KBaseTrees.MSA
+global-object-type: MSA
 storage-type: WS
-storage-object-type: MSA
+storage-object-type: KBaseTrees.MSA
 versions:
   - indexing-rules: []

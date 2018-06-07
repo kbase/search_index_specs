@@ -1,5 +1,5 @@
-global-object-type: KBaseBiochem.CompoundSet
+global-object-type: CompoundSet
 storage-type: WS
-storage-object-type: CompoundSet
+storage-object-type: KBaseBiochem.CompoundSet
 versions:
   - indexing-rules: []

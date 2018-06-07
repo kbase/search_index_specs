@@ -1,5 +1,5 @@
-global-object-type: CoExpression.FigureProperties
+global-object-type: FigureProperties
 storage-type: WS
-storage-object-type: FigureProperties
+storage-object-type: CoExpression.FigureProperties
 versions:
   - indexing-rules: []

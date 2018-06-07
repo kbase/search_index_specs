@@ -1,5 +1,5 @@
-global-object-type: KBaseRNASeq.AlignmentStatsResults
+global-object-type: AlignmentStatsResults
 storage-type: WS
-storage-object-type: AlignmentStatsResults
+storage-object-type: KBaseRNASeq.AlignmentStatsResults
 versions:
   - indexing-rules: []

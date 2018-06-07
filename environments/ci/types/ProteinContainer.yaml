@@ -1,5 +1,5 @@
-global-object-type: KBaseGenomeAnnotations.ProteinContainer
+global-object-type: ProteinContainer
 storage-type: WS
-storage-object-type: ProteinContainer
+storage-object-type: KBaseGenomeAnnotations.ProteinContainer
 versions:
   - indexing-rules: []

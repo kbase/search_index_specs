@@ -1,5 +1,5 @@
-global-object-type: KBaseFeatureValues.FeatureClusters
+global-object-type: FeatureClusters
 storage-type: WS
-storage-object-type: FeatureClusters
+storage-object-type: KBaseFeatureValues.FeatureClusters
 versions:
   - indexing-rules: []

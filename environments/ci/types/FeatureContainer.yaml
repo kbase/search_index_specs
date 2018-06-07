@@ -1,5 +1,5 @@
-global-object-type: KBaseGenomeAnnotations.FeatureContainer
+global-object-type: FeatureContainer
 storage-type: WS
-storage-object-type: FeatureContainer
+storage-object-type: KBaseGenomeAnnotations.FeatureContainer
 versions:
   - indexing-rules: []

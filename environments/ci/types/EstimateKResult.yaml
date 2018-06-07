@@ -1,5 +1,5 @@
-global-object-type: KBaseFeatureValues.EstimateKResult
+global-object-type: EstimateKResult
 storage-type: WS
-storage-object-type: EstimateKResult
+storage-object-type: KBaseFeatureValues.EstimateKResult
 versions:
   - indexing-rules: []

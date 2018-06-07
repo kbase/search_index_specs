@@ -1,5 +1,5 @@
-global-object-type: KBasePhenotypes.PhenotypeSet
+global-object-type: PhenotypeSet
 storage-type: WS
-storage-object-type: PhenotypeSet
+storage-object-type: KBasePhenotypes.PhenotypeSet
 versions:
   - indexing-rules: []

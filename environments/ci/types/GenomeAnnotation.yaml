@@ -1,5 +1,5 @@
-global-object-type: KBaseGenomeAnnotations.GenomeAnnotation
+global-object-type: GenomeAnnotation
 storage-type: WS
-storage-object-type: GenomeAnnotation
+storage-object-type: KBaseGenomeAnnotations.GenomeAnnotation
 versions:
   - indexing-rules: []

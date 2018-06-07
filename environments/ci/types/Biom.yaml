@@ -1,5 +1,5 @@
-global-object-type: Communities.Biom
+global-object-type: Biom
 storage-type: WS
-storage-object-type: Biom
+storage-object-type: Communities.Biom
 versions:
   - indexing-rules: []

@@ -1,5 +1,5 @@
-global-object-type: KBaseGeneFamilies.DomainAnnotation
+global-object-type: DomainAnnotation
 storage-type: WS
-storage-object-type: DomainAnnotation
+storage-object-type: KBaseGeneFamilies.DomainAnnotation
 versions:
   - indexing-rules: []

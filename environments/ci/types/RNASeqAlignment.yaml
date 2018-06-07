@@ -1,5 +1,5 @@
-global-object-type: KBaseRNASeq.RNASeqAlignment
+global-object-type: RNASeqAlignment
 storage-type: WS
-storage-object-type: RNASeqAlignment
+storage-object-type: KBaseRNASeq.RNASeqAlignment
 versions:
   - indexing-rules: []
