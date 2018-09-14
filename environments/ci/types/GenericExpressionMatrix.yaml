@@ -1,0 +1,58 @@
+global-object-type: GenericExpressionMatrix
+storage-type: WS
+storage-object-type: KBaseMatrices.ExpressionMatrix
+versions:
+- indexing-rules:
+  - path: description
+    full-text: true
+  - path: data/row_ids
+    transform: values
+    full-text: true
+  - path: data/col_ids
+    transform: values
+    full-text: true
+  - path: col_mapping
+    transform: values
+    full-text: true
+  - path: row_mapping
+    transform: values
+    full-text: true
+  - path: search_attributes
+    transform: values
+    full-text: true
+  - path: row_attributemapping_ref
+    transform: guid
+    target-object-type: AttributeMapping
+    target-object-type-version: 1
+    optional-default-value: []
+    keyword-type: keyword
+    key-name: row_attributemapping_guid
+    ui-hidden: true
+  - source-key: row_attributemapping_guid
+    transform: lookup.key.attributes/[*]/attribute
+    full-text: true
+    key-name: row_attributes
+    ui-name: Row Attributes
+  - source-key: row_attributemapping_guid
+    transform: lookup.key.attributes/[*]/categories/*/value
+    full-text: true
+    key-name: row_attribute_values
+    ui-name: Row Attribute Values
+  - path: col_attributemapping_ref
+    transform: guid
+    target-object-type: AttributeMapping
+    target-object-type-version: 1
+    optional-default-value: []
+    keyword-type: keyword
+    key-name: col_attributemapping_guid
+    ui-hidden: true
+  - source-key: col_attributemapping_guid
+    transform: lookup.key.attributes/[*]/attribute
+    full-text: true
+    key-name: col_attributes
+    ui-name: Column Attributes
+  - source-key: col_attributemapping_guid
+    transform: lookup.key.attributes/[*]/categories/*/value
+    full-text: true
+    key-name: col_attribute_values
+    ui-name: Column Attribute Values
