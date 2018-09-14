@@ -1,0 +1,22 @@
+global-object-type: AttributeMapping
+storage-type: WS
+storage-object-type: KBaseExperiments.AttributeMapping
+versions:
+- indexing-rules:
+  - path: attributes/[*]/attribute
+    full-text: true
+  - path: attributes/[*]/attribute_ont_id
+    full-text: true
+    ui-name: Attribute Ontology IDs
+  - path: attributes/[*]/categories/*/value
+    full-text: true
+    ui-name: Catagory Values
+  - path: attributes/[*]/categories/*/value_ont_id
+    full-text: true
+    ui-name: Catagory Value Ontologies
+  - path: attributes/{size}
+    keyword-type: integer
+    key-name: attribute_count
+  - path: instances/{size}
+    keyword-type: integer
+    key-name: instance_count
