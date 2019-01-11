@@ -1,0 +1,120 @@
+types:
+    All:
+         -
+             index_method: default_indexer
+             mapping_method: default_mapping
+             index_name: allobjects
+    Other:
+         -
+             comment: Everything without a specific indexer
+             index_method: default_indexer
+             mapping_method: default_mapping
+             index_name: objects
+
+    KBaseGenomes.Genome:
+         -
+             index_method: kb_GenomeIndexer.genome_index
+             mapping_method: kb_GenomeIndexer.genome_mapping
+             index_name: genome
+         -
+             index_method: kb_GenomeIndexer.genomefeature_index
+             mapping_method: kb_GenomeIndexer.genomefeature_mapping
+             index_name: genomefeature
+             feature: True
+
+    KBaseBiochem.Media:
+         -
+             index_method: kb_ModelIndexer.media_index
+             mapping_method: kb_ModelIndexer.media_mapping
+             index_name: media
+         -
+             index_method: kb_ModelIndexer.media_compound_index
+             mapping_method: kb_ModelIndexer.media_compound_mapping
+             index_name: mediacompound
+             feature: True
+
+    KBaseFBA.FBAModel:
+         -
+             index_method: kb_ModelIndexer.fbamodel_index
+             mapping_method: kb_ModelIndexer.fbamodel_mapping
+             index_name: fbamodel
+         -
+             index_method: kb_ModelIndexer.modelreaction_index
+             mapping_method: kb_ModelIndexer.modelreaction_mapping
+             index_name: modelreaction
+             feature: True
+         -
+             index_method: kb_ModelIndexer.modelcompound_index
+             mapping_method: kb_ModelIndexer.modelcompound_mapping
+             index_name: modelcompound
+             feature: True
+         -
+             index_method: kb_ModelIndexer.modelreactionproteinsubunit_index
+             mapping_method: kb_ModelIndexer.modelreactionproteinsubunit_mapping
+             index_name: modelreactionproteinsubunit
+             feature: True
+
+    KBaseGenomeAnnotations.Assembly:
+         -
+             index_method: MiscIndexer.assembly_index
+             mapping_method: MiscIndexer.assembly_mapping
+             index_name: assembly
+         -
+             index_method: MiscIndexer.assemblycontig_index
+             mapping_method: MiscIndexer.assemblycontig_mapping
+             index_name: assemblycontig
+             feature: True
+
+    KBaseOntology.OntologyDictionary:
+         -
+             index_method: MiscIndexer.ontologyterm_index
+             mapping_method: MiscIndexer.ontologyterm_mapping
+             index_name: ontologyterm
+             feature: True
+
+    KBaseFile.PairedEndLibrary:
+         -
+             index_method: MiscIndexer.pairedendlibrary_index
+             mapping_method: MiscIndexer.pairedendlibrary_mapping
+             index_name: pairedendlibrary
+
+    KBaseFile.PairedEndLibrary:
+         -
+             index_method: MiscIndexer.singleendlibrary_index
+             mapping_method: MiscIndexer.singleendlibrary_mapping
+             index_name: singleendlibrary
+
+    KBaseGenomes.Pangenome:
+         -
+             index_method: MiscIndexer.pangenome_index
+             mapping_method: MiscIndexer.pangenome_mapping
+             index_name: pangenome
+         -
+             index_method: MiscIndexer.pangenomeorthology_index
+             mapping_method: MiscIndexer.pangenomeorthology_mapping
+             index_name: pangenomeorthology
+             feature: True
+
+    KBaseRNASeq.RNASeqSampleSet:
+         -
+             index_method: MiscIndexer.rnaseqsampleset_index
+             mapping_method: MiscIndexer.rnaseqsampleset_mapping
+             index_name: rnaseqsampleset
+
+    KBaseGenomeAnnotations.Taxon:
+         -
+             index_method: MiscIndexer.taxon_index
+             mapping_method: MiscIndexer.taxon_mapping
+             index_name: taxon
+
+    KBaseTrees.Tree:
+         -
+             index_method: MiscIndexer.tree_index
+             mapping_method: MiscIndexer.tree_mapping
+             index_name: tree
+
+    KBaseNarrative.Narrative:
+         -
+             index_method: NarrativeIndexer.index
+             mapping_method: NarrativeIndexer.mapping
+             index_name: narrative
