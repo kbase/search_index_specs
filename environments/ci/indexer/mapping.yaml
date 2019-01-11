@@ -115,6 +115,6 @@ types:
 
     KBaseNarrative.Narrative:
          -
-             index_method: NarrativeIndexer.index
-             mapping_method: NarrativeIndexer.mapping
+             index_method: MiscIndexer.narrative_index
+             mapping_method: MiscIndexer.narrative_mapping
              index_name: narrative
