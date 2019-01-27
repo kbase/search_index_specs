@@ -16,7 +16,7 @@ types:
          -
              index_method: kb_GenomeIndexer.genomefeature_index
              index_name: genomefeature
-             feature: True
+             multi: True
 
     KBaseBiochem.Media:
          -
@@ -25,7 +25,7 @@ types:
          -
              index_method: kb_ModelIndexer.media_compound_index
              index_name: mediacompound
-             feature: True
+             multi: True
 
     KBaseFBA.FBAModel:
          -
@@ -34,15 +34,15 @@ types:
          -
              index_method: kb_ModelIndexer.modelreaction_index
              index_name: modelreaction
-             feature: True
+             multi: True
          -
              index_method: kb_ModelIndexer.modelcompound_index
              index_name: modelcompound
-             feature: True
+             multi: True
          -
              index_method: kb_ModelIndexer.modelreactionproteinsubunit_index
              index_name: modelreactionproteinsubunit
-             feature: True
+             multi: True
 
     KBaseGenomeAnnotations.Assembly:
          -
@@ -51,13 +51,13 @@ types:
          -
              index_method: MiscIndexer.assemblycontig_index
              index_name: assemblycontig
-             feature: True
+             multi: True
 
     KBaseOntology.OntologyDictionary:
          -
              index_method: MiscIndexer.ontologyterm_index
              index_name: ontologyterm
-             feature: True
+             multi: True
 
     KBaseFile.PairedEndLibrary:
          -
@@ -76,7 +76,7 @@ types:
          -
              index_method: MiscIndexer.pangenomeorthology_index
              index_name: pangenomeorthology
-             feature: True
+             multi: True
 
     KBaseRNASeq.RNASeqSampleSet:
          -
