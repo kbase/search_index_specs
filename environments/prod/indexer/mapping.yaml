@@ -1,0 +1,99 @@
+types:
+    All:
+         -
+             index_method: default_indexer
+             index_name: allobjects
+    Other:
+         -
+             comment: Everything without a specific indexer
+             index_method: default_indexer
+             index_name: objects
+
+    KBaseGenomes.Genome:
+         -
+             index_method: kb_GenomeIndexer.genome_index
+             index_name: genome
+         -
+             index_method: kb_GenomeIndexer.genomefeature_index
+             index_name: genomefeature
+             multi: True
+
+    KBaseBiochem.Media:
+         -
+             index_method: kb_ModelIndexer.media_index
+             index_name: media
+         -
+             index_method: kb_ModelIndexer.media_compound_index
+             index_name: mediacompound
+             multi: True
+
+    KBaseFBA.FBAModel:
+         -
+             index_method: kb_ModelIndexer.fbamodel_index
+             index_name: fbamodel
+         -
+             index_method: kb_ModelIndexer.modelreaction_index
+             index_name: modelreaction
+             multi: True
+         -
+             index_method: kb_ModelIndexer.modelcompound_index
+             index_name: modelcompound
+             multi: True
+         -
+             index_method: kb_ModelIndexer.modelreactionproteinsubunit_index
+             index_name: modelreactionproteinsubunit
+             multi: True
+
+    KBaseGenomeAnnotations.Assembly:
+         -
+             index_method: MiscIndexer.assembly_index
+             index_name: assembly
+         -
+             index_method: MiscIndexer.assemblycontig_index
+             index_name: assemblycontig
+             multi: True
+
+    KBaseOntology.OntologyDictionary:
+         -
+             index_method: MiscIndexer.ontologyterm_index
+             index_name: ontologyterm
+             multi: True
+
+    KBaseFile.PairedEndLibrary:
+         -
+             index_method: MiscIndexer.pairedendlibrary_index
+             index_name: pairedendlibrary
+
+    KBaseFile.PairedEndLibrary:
+         -
+             index_method: MiscIndexer.singleendlibrary_index
+             index_name: singleendlibrary
+
+    KBaseGenomes.Pangenome:
+         -
+             index_method: MiscIndexer.pangenome_index
+             index_name: pangenome
+         -
+             index_method: MiscIndexer.pangenomeorthology_index
+             index_name: pangenomeorthology
+             multi: True
+
+    KBaseRNASeq.RNASeqSampleSet:
+         -
+             index_method: MiscIndexer.rnaseqsampleset_index
+             index_name: rnaseqsampleset
+
+    KBaseGenomeAnnotations.Taxon:
+         -
+             index_method: MiscIndexer.taxon_index
+             index_name: taxon
+
+    KBaseTrees.Tree:
+         -
+             index_method: MiscIndexer.tree_index
+             index_name: tree
+
+    KBaseNarrative.Narrative:
+         -
+             index_method: MiscIndexer.narrative_index
+             index_name: narrative
